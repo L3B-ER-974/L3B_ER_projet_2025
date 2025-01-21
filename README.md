@@ -1,4 +1,4 @@
-# L3B CIEL-ER projet2025 - RÉSEAU POUR NAVIRE DE PLAISANCE 
+# L3B CIEL-ER projet 2025 - RÉSEAU POUR NAVIRE DE PLAISANCE 
 
 Ceci est la branche de dépot principal !
 Le contenu correspond à la fusion de l'ensemble des branches des étudiants de la section.
