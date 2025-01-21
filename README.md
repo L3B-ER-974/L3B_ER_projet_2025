@@ -5,26 +5,25 @@ Le contenu correspond à la fusion de l'ensemble des branches des étudiants de 
 
 ## Présentation générale
 
-La SARL *Réunion Formation Plongée* désire équiper son navire support de plongée d’un ensemble d’appareils et de capteurs à la norme NMEA2000.
+La SARL *Réunion Formation Plongée* désire équiper son navire support de plongée d’un ensemble d’appareils et de capteurs à la norme NMEA2000 (National Marine Electronics Association).
 
 - NMEA 2000 est une norme (normalisé CEI 61162-3) de communication utilisée pour **connecter** des capteurs marins et des unités d'affichage à bord des navires et des bateaux.
   
   ![image](https://github.com/user-attachments/assets/1a12b45b-7cac-43d6-b560-e73dd437fcb6)
   
-- L'ensemble des différentes unités communique sur un **bus série différentiel CAN** (controller area network).
+- L'ensemble des différentes unités (50 max.) communique sur un **bus série différentiel CAN** (controller area network) avec un débit de 250 kbit/s pour une distance de 250 m. Les unités sont identifiées et hiérarchisées par un code standardisé PGN (Parameters Group Number).
 
   <!-- Ceci est un commentaire -->
   <!-- ![image](https://github.com/user-attachments/assets/bae5d834-5a40-4ef9-b0d7-cf7c12461673)-->
   <img src="https://github.com/user-attachments/assets/bae5d834-5a40-4ef9-b0d7-cf7c12461673" alt="image" width=75%>
   
 - Chaque unité déportée pourra utiliser "localement" des bus de type 1-wire, SPI ou I2C mais les transmissions entre unités repose sur l'association "NMEA2K + CAN".
-
 ## Expression du besoin
 
 ### Diagramme de Cas d’Utilisation (Use Case Diagram)
 
 <!-- ![image](https://github.com/user-attachments/assets/9d067235-bc27-45e2-9fe4-a5bc436da384) -->
-<img src="https://github.com/user-attachments/assets/9d067235-bc27-45e2-9fe4-a5bc436da384" alt="image" width=75%>
+<img src="https://github.com/user-attachments/assets/9d067235-bc27-45e2-9fe4-a5bc436da384" alt="image" width=95%>
 
 ### Diagramme d'exigences (Requirement diagram)
 
