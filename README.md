@@ -1,13 +1,13 @@
 # L3B_ER_projet_2025
 
-## 1- Description du module
+## 1- Description du module étudiant
 
 - [ ] Description générale du module et attendu final
-- [ ] Description des grandeurs d'entrée et de sortie :
+- [ ] Description des grandeurs d'entrée et de sortie
     - plage de variation attendue
     - précision attendue
     - Résultat attendu
-- [ ] Description des composants constitutifs de l'unité : 
+- [ ] Description des composants constitutifs de l'unité
     - Caractéristique entrée-sortie
     - plage de variation
     - précision, résolution, limitation
