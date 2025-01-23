@@ -1,6 +1,8 @@
-# L3B_ER_projet_2025 : ma partie
+# L3B_ER_projet_2025
 
-- [ ] Description du module et attendu final
+## 1- Description du module
+
+- [ ] Description générale du module et attendu final
 - [ ] Description des grandeurs d'entrée et de sortie :
     - plage de variation attendue
     - précision attendue
