@@ -15,3 +15,4 @@
     - ports utilisés
     - alimentation et consommation
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
+![BlocsSystem](https://github.com/user-attachments/assets/3a5ed3ff-b726-4864-8022-881c65bfea3e)
