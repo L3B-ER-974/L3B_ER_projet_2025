@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/46cdf7dd-1add-49dd-b231-b170790bfd0d)# L3B_ER_projet_2025 
+# Projet 2025 Jean
 
 Le langage s'appelle Markdown :
 
@@ -21,7 +21,7 @@ Le module que je dois mettre en place c'est l'écran multifonction. Alors les fo
 
 Exemple de trame pour le module moteur n°2 : 
 
-
+![image](https://github.com/user-attachments/assets/46cdf7dd-1add-49dd-b231-b170790bfd0d)# L3B_ER_projet_2025 
 
 # Description des grandeurs d'entrée et de sortie 
 
