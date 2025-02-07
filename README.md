@@ -35,7 +35,7 @@
     
     - ports utilisés 
     Spécification du port de communication utilisé (I2C, SPI).
-    
+  
     - alimentation et consommation 
     Alimentation 3,3V / 5V
     
