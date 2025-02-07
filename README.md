@@ -1,6 +1,7 @@
 # L3B_ER_projet_2025
 - [ ] Description du module et attendu final
 - [ ] Boussole Numerique
+
 ![image](https://github.com/user-attachments/assets/73772ac3-c29a-4dd1-940a-bab488e4cb58)
 
 - [ ] Description des grandeurs d'entrée et de sortie :
