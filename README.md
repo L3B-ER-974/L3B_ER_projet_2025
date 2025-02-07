@@ -13,5 +13,6 @@
     - ports utilisés
     - alimentation et consommation
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
+- [ ] Diagramme d'exigence
 
 ![uno](https://github.com/user-attachments/assets/96e0c3f6-b95a-4f0d-b339-db55f177ba5e)
