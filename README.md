@@ -25,6 +25,7 @@
     - Caractéristique entrée-sortie 
     
     - plage de variation 
+    360°
     La plage de 950 à 2 150 MHz.
     
     - précision, résolution, limitation 
