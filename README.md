@@ -14,4 +14,7 @@ Comm. en bus USART et CAN
     - Type de bus
     - ports utilisés
     - alimentation et consommation
+    - ...
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
+- [ ] Diagramme d'exigence
+- [ ] Diagramme de bloc interne
