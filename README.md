@@ -1,21 +1,21 @@
 # L3B_ER_projet_2025
 - [ ] Description du module et attendu final
-
-
-
+- [ ] 
 Etudiant 7 (Brice Métayer) : Module horaire (GPS)
+Géolocalisation par satellites Comm. en bus USART et CAN
+
 
 - [ ] Description des grandeurs d'entrée et de sortie :
 
     - plage de variation attendue
-    - précision attendue : Résolution 100 µs,
+    - précision attendue : 
     - Résultat attendu :Heure au temps universel cordonné (UTC)
        
 - [ ] Description des composants constitutifs de l'unité : 	Microcontrôleur : ATmega328  GPS : Neo6M
       
     - Caractéristique entrée-sortie
     - plage de variation
-    - précision, résolution, limitation
+    - précision, résolution, limitation : Résolution 100 µs,
     - Type de bus : Contrôleur de bus CAN : MCP2515 : Interface bus CAN : PCA82C250
     - ports utilisés
     - alimentation et consommation: Alimentation xl1509-5.0 entrée 12V sortie 5V
