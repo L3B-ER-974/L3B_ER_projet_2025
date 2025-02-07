@@ -33,19 +33,19 @@ La SARL *Réunion Formation Plongée* désire équiper son navire support de plo
 
 |Etudiant|Programme|Fabrication|Principe|Composants de base|
 |---|---|---|---|---|
-|ER1|Numérisation signaux capteurs et écriture trame NMEA2000 d’identifiant 09FD02xxh|Module Anémo-girouette|Procédé optique (20 imp/tr), Capteur magnétique (12 bits), bus I2C et CAN| ATmega328 + PR-3000-FSJT-N01 + AS5600 + MCP2515/PCA82C250|
-|ER2|Lecture capteur et Ecriture trame NMEA2000 d’identifiant 09F503xxh|Module Vitesse de l’eau|Capteur magnétique à hélice, bus CAN|ATmega328 + YF-S401 + MCP2515/PCA82C250|
+|ER1 : THERMEA Gauthier|Numérisation signaux capteurs et écriture trame NMEA2000 d’identifiant 09FD02xxh|Module Anémo-girouette|Procédé optique (20 imp/tr), Capteur magnétique (12 bits), bus I2C et CAN| ATmega328 + PR-3000-FSJT-N01 + AS5600 + MCP2515/PCA82C250|
+|ER2 : MAILLY Jules|Lecture capteur et Ecriture trame NMEA2000 d’identifiant 09F503xxh|Module Vitesse de l’eau|Capteur magnétique à hélice, bus CAN|ATmega328 + YF-S401 + MCP2515/PCA82C250|
 |ER3|Lecture capteur et Ecriture trame NMEA2000 d’identifiant 15FD06xxh|Module Température|Capteur numérique, bus 1wire et CAN|ATmega328 + DS18B20 + MCP2515/PCA82C250|
-|ER4|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 09F80102h|Module GPS (position)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
-|ER5|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 09F80202h|Module GPS (déplacement)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
-|ER6|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 09F11202h|Module GPS (boussole)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
-|ER7|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 0DF80902h|Module GPS (Heure UTC)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
-|ER8|Lecture capteur et Ecriture trame NMEA2000 d’identifiant 09F112xxh|Module Boussole magnétique|Capteur magnétique, bus I2C et CAN|ATmega328 + GY-271 + MCP2515/PCA82C250|
-|ER9|Numérisation signal capteur et Ecriture trame NMEA2000 d’identifiant 0DF50Bxxh|Module profondimètre|Echolocation Ultra-Son, bus CAN|ATmega328 + HC-SR04P + MCP2515/PCA82C250|
-|ER10|Lecture des trames NMEA2000 et affichage données GPS & boussole|Module Combi-Simrad|Ecran OLED, bus CAN|ATmega328 + écran OLED + MCP2515/PCA82C250|
-|ER11|Lecture des trames NMEA2000 et affichage données capteurs et moteur|Module Combi-Simrad|Ecran OLED, bus CAN|ATmega328 + écran OLED + MCP2515/PCA82C250|
-|ER12|Capteur de débit et niveau d’essence et Ecriture trame NMEA2000 d’identifiant 08F402xxh|Module Moteur 1|ATmega328 + YF-S401 + S3-E750 + MCP2515/PCA82C250|
-|ER13|Capteur de régime moteur et totalisateur horaire et Ecriture trame NMEA2000 d’identifiant 08F403xxh|Module Moteur 2|Horloge temps reel, bus CAN|ATmega328 + DS1307 + MCP2515/PCA82C250|
+|ER4 : AURE Nathan|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 09F80102h|Module GPS (position)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
+|ER5 : CADET Arkange|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 09F80202h|Module GPS (déplacement)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
+|ER6 : MOISSON Nolan|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 09F11202h|Module GPS (boussole)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
+|ER7 : METAYER Brice|Lecture données GPS en NMEA0183 et Ecriture trame NMEA2000 d’identifiant 0DF80902h|Module GPS (Heure UTC)|Géolocalisation par satellites, bus USART et CAN|ATmega328 + GPS Neo6M + MCP2515/PCA82C250|
+|ER8 : NOURDINE Nizamuddine|Lecture capteur et Ecriture trame NMEA2000 d’identifiant 09F112xxh|Module Boussole magnétique|Capteur magnétique, bus I2C et CAN|ATmega328 + GY-271 + MCP2515/PCA82C250|
+|ER9 : HOARAU Anthony|Numérisation signal capteur et Ecriture trame NMEA2000 d’identifiant 0DF50Bxxh|Module profondimètre|Echolocation Ultra-Son, bus CAN|ATmega328 + HC-SR04P + MCP2515/PCA82C250|
+|ER10 : SIALA-CHAMBA Shelton|Lecture des trames NMEA2000 et affichage données GPS & boussole|Module Combi-Simrad|Ecran OLED, bus CAN|ATmega328 + écran OLED + MCP2515/PCA82C250|
+|ER11 : CERVEAUX Jean|Lecture des trames NMEA2000 et affichage données capteurs et moteur|Module Combi-Simrad|Ecran OLED, bus CAN|ATmega328 + écran OLED + MCP2515/PCA82C250|
+|ER12 : SANCHEZ Cyrian|Capteur de débit et niveau d’essence et Ecriture trame NMEA2000 d’identifiant 08F402xxh|Module Moteur 1|ATmega328 + YF-S401 + S3-E750 + MCP2515/PCA82C250|
+|ER13 : MERCURE Lucas|Capteur de régime moteur et totalisateur horaire et Ecriture trame NMEA2000 d’identifiant 08F403xxh|Module Moteur 2|Horloge temps reel, bus CAN|ATmega328 + DS1307 + MCP2515/PCA82C250|
 |ER14|Lecture trames NMEA2000 et transmission USB (port COM virtuel)|Module passerelle|Communication bus CAN et USB|ATmega328 + CP2102 + MCP2515/PCA82C250|
 
 ![image](https://github.com/user-attachments/assets/cf00ad84-ec59-4f89-91e3-1b145940bdcf)
