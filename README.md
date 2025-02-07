@@ -25,6 +25,7 @@
     - Caractéristique entrée-sortie 
     
     - plage de variation 
+    La plage de 950 à 2 150 MHz.
     
     - précision, résolution, limitation 
     La précision de ± 1 degré, 3 axes.
@@ -39,10 +40,3 @@
     Alimentation 3,3V / 5V
     
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
-## PROJET NIZAM 
-#### MISE EN CONDITION
-![download](https://github.com/user-attachments/assets/7424d038-6472-4bc9-b47e-51e8cff577d1)
-
-https://www.markdownguide.org/getting-started/
-
-https://www.markdownguide.org/basic-syntax/
