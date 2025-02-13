@@ -1,10 +1,10 @@
 # L3B_ER_projet_2025
 
-## Description du module et attendu final
-
 Le but de notre projet est d'équipé le navire "SARL Réunion Formation Plongée" d'un ensemble d’appareils et de capteurs à la norme NMEA2000.
 
 ![Projet2025](https://github.com/user-attachments/assets/72c7fcfe-b73f-4beb-ae8a-201ff236c900)
+
+## Description du module et attendu final
 
 Le module que je dois concevoir c'est un écran multifonction qui affiche les mesures de l'anémomètre-girouette (la vitesse du vent ainsi que sa direction), la température, le débit et le niveau d'essence pour le moteur 1, le régime moteur et totalisateur horaire du moteur 2 et enfin la vitesse relative sur l'eau.
 
