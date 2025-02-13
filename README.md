@@ -10,72 +10,55 @@ Le module que je dois concevoir c'est un écran multifonction qui affiche les me
 
 Ce qui est attendu au final c'est que je dois concevoir une carte fonctionnel qui affiche les mesures que j'ai cité au-dessus. 
 
-Exemple d'aperçu du rendu final : 
+<ins> **Exemple d'écran multifonction avec d'autre mesure  :**</ins>
 
 ![image](https://github.com/user-attachments/assets/1524843b-de97-47d4-b072-d8c7a151ef04)
  
-Nous allons fabriqué une carte avec l'écran qui sera par-dessus 
+<ins> ** Exemple de carte à fabriqué : **</ins>
 
 ![image](https://github.com/user-attachments/assets/d10485e7-7799-4566-b702-df0929d8225d)
 
+## Description des grandeurs d'entrée et de sortie 
 
-- [ ] Description des grandeurs d'entrée et de sortie :
-    - plage de variation attendue
-    - précision attendue
-    - Résultat attendu
+Alors notre maquette va recevoir à l'entré le bus de données CAN, ensuite, ces données vont être traité par le microcontroleur puis ils vont être affiché par l'afficheur LCD 2.4pouces en bus SPI. 
 
-Les résultats qui sont attendus à la fin c'est qu'on doit affiché les valeurs des mesures sur l'écran LCD de façon bien organisé. 
 
-- [ ] Description des composants constitutifs de l'unité : 
+## Description des composants constitutifs de l'unité 
+
+Ecran LCD "SKU MAR2406 driver ILI9341" : 
  
-    - Caractéristique entrée-sortie
-      
-Les données des capteurs passe par l'atmel328 pour le traitement puis les affiches sur l'écran LCD et cela en BUS SPI. 
-Nom de l'afficheur LCD : SKU MAR2406 driver ILI9341
+ - Taille écran : 2.4 pouces (6,096 cm en diagonal )
+ - Résolution : 320*240 pixel
+ - Couleur : RGB 65k color
+ - Communication : BUS SPI
 
-    - plage de variation
+Microprocesseur "Atmega328": 
+ 
+ - Alimentation : 1.8 - 5.5 V
+ - Plage de fréquence : 0 - 20 MHz
+ - programmable en série USART
+ - Possédent 32 broches au total
 
-Pas de variation.
-    
-    - précision, résolution, limitation
-    
-Résolution : 320x240 pixel
-Taille écran en diagonal : 6,096 cm
+Composant "MCP2515" : 
 
-    - Type de bus
-    
-Communication : BUS CAN
-Protocole SIMNET
+ - Communication : CANH et CANL
+ - Alimentation : 2.7 V - 5.5 V
 
-    - ports utilisés
+Composant "MCP2551" :
+ 
+ - Communication : CANH et CANL
+ - Alimentation : 4.5V - 5.5V
 
-Pas de ports utilisés 
+Composant "XL1509-5.0" :
 
-    - alimentation et consommation
-    
-Alimentation : 3,3 à 5 V
+ -Tension de sortie régulé à : 5V (valeur typique)
+ -Tension entré : 4.5V - 40V
+ -Oscillateur de fréquence : 150 khz (valeur typique)
+ -Limite de courant : 4 A.
 
-
-- [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
-
-Diagramme de cas d'utilisation : 
-
-Je l'ai fait mais j'ai pas pu le mettre 
-
-Diagramme de cas d'exigence : 
-
-![image](https://github.com/user-attachments/assets/6e29507a-380d-4cdf-a1c4-6a16437841bf)
-
-Diagramme de bloc interne : 
-
-![image](https://github.com/user-attachments/assets/0de2050f-efe6-4dd4-805a-20fe3854c0a2)
+Le protocole qui est utilisé c'est le protocole SIMNET et pour la communication c'est le BUS CAN. 
 
 
 
-
-
-
-
-
-
+ 
 
