@@ -1,16 +1,23 @@
 # L3B_ER_projet_2025
 
-- [ ] Description du module et attendu final
+## Description du module et attendu final
 
-Le module que je dois mettre en place c'est l'écran multifonction. Alors les fonction qu'il doit réalisé c'est qu'il doit lire les trames des differents capteurs pour pourvoir affiché les données mesures de l'Anémomètre-girouette, la vitesse de l'eau, la température, le débit et le niveau d'essence du moteur 1 et le régime moteur et totalisateur horaire du moteur 2. 
+Le but de notre projet est d'équipé le navire "SARL Réunion Formation Plongée" d'un ensemble d’appareils et de capteurs à la norme NMEA2000.
 
-Exemple de trame pour le module moteur n°2 : 
+![Projet2025](https://github.com/user-attachments/assets/72c7fcfe-b73f-4beb-ae8a-201ff236c900)
 
-![image](https://github.com/user-attachments/assets/46cdf7dd-1add-49dd-b231-b170790bfd0d)# L3B_ER_projet_2025 
+Le module que je dois concevoir c'est un écran multifonction qui affiche les mesures de l'anémomètre-girouette (la vitesse du vent ainsi que sa direction), la température, le débit et le niveau d'essence pour le moteur 1, le régime moteur et totalisateur horaire du moteur 2 et enfin la vitesse relative sur l'eau.
 
-La partie du projet que j'ai en charge :
+Ce qui est attendu au final c'est que je dois concevoir une carte fonctionnel qui affiche les mesures que j'ai cité au-dessus. 
 
-![image](https://github.com/user-attachments/assets/17945f1c-a007-461d-bc29-03956196aba0)
+Exemple d'aperçu du rendu final : 
+
+![image](https://github.com/user-attachments/assets/1524843b-de97-47d4-b072-d8c7a151ef04)
+ 
+Nous allons fabriqué une carte avec l'écran qui sera par-dessus 
+
+![image](https://github.com/user-attachments/assets/d10485e7-7799-4566-b702-df0929d8225d)
+
 
 - [ ] Description des grandeurs d'entrée et de sortie :
     - plage de variation attendue
