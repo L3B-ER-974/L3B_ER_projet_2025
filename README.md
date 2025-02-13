@@ -38,6 +38,7 @@ Microprocesseur "Atmega328":
  - Plage de fréquence : 0 - 20 MHz
  - programmable en série USART
  - Possédent 32 broches au total
+ - Limitation courant : 200 mA
 
 Composant "MCP2515" : 
 
@@ -58,6 +59,19 @@ Composant "XL1509-5.0" :
 
 Le protocole qui est utilisé c'est le protocole SIMNET et pour la communication c'est le BUS CAN. 
 
+## Mise à jour des documentations techniques essentielles 
+
+<ins> ** Diagramme de cas d'utilisation : **</ins>
+
+![Diagramme_de_cas_utilisation](https://github.com/user-attachments/assets/1774d671-eae3-4035-bea4-8383dec1db04)
+
+<ins> ** Diagramme de cas d'éxigence : **</ins>
+
+![Diagramme_exigence_Jean](https://github.com/user-attachments/assets/60041320-7967-4360-8ec1-09c04f2ef083)
+
+<ins> ** Diagramme de bloc interne : **</ins>
+
+![Diagramme_de_bloc_interne](https://github.com/user-attachments/assets/a4674664-38d4-4457-9ef1-f7dfe83a1d50)
 
 
  
