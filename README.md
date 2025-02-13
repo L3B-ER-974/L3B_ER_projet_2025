@@ -14,7 +14,7 @@ Ce qui est attendu au final c'est que je dois concevoir une carte fonctionnel qu
 
 ![image](https://github.com/user-attachments/assets/1524843b-de97-47d4-b072-d8c7a151ef04)
  
-<ins> ** Exemple de carte à fabriqué : **</ins>
+<ins> **Exemple de carte à fabriqué :**</ins>
 
 ![image](https://github.com/user-attachments/assets/d10485e7-7799-4566-b702-df0929d8225d)
 
@@ -61,15 +61,15 @@ Le protocole qui est utilisé c'est le protocole SIMNET et pour la communication
 
 ## Mise à jour des documentations techniques essentielles 
 
-<ins> ** Diagramme de cas d'utilisation : **</ins>
+<ins> **Diagramme de cas d'utilisation :**</ins>
 
 ![Diagramme_de_cas_utilisation](https://github.com/user-attachments/assets/1774d671-eae3-4035-bea4-8383dec1db04)
 
-<ins> ** Diagramme de cas d'éxigence : **</ins>
+<ins> **Diagramme de cas d'éxigence :**</ins>
 
 ![Diagramme_exigence_Jean](https://github.com/user-attachments/assets/60041320-7967-4360-8ec1-09c04f2ef083)
 
-<ins> ** Diagramme de bloc interne : **</ins>
+<ins> **Diagramme de bloc interne :**</ins>
 
 ![Diagramme_de_bloc_interne](https://github.com/user-attachments/assets/a4674664-38d4-4457-9ef1-f7dfe83a1d50)
 
