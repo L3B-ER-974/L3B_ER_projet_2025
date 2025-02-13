@@ -20,7 +20,7 @@ Ce qui est attendu au final c'est que je dois concevoir une carte fonctionnel qu
 
 ## Description des grandeurs d'entrée et de sortie 
 
-Alors notre maquette va recevoir à l'entré le bus de données CAN, ensuite, ces données vont être traité par le microcontroleur puis ils vont être affiché par l'afficheur LCD 2.4pouces en bus SPI. 
+Alors notre maquette va recevoir à l'entré le bus de données CAN, ensuite, ces données vont être traité par le microcontroleur puis ils vont être affiché par l'afficheur LCD 2.4inch en bus SPI. 
 
 
 ## Description des composants constitutifs de l'unité 
