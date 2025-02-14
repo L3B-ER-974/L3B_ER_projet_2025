@@ -14,14 +14,14 @@
 - Précision attendue
 - [ ]
   - La précision de la mesure de l'azimut doit être dans une marge d'erreur de ± 1 degré.
-- [ ] 
+ 
 - Résultat attendu
-- [ ]
+
   - Les données doivent être disponibles en temps réel avec un taux de transmission spécifique (par exemple, toutes les secondes).
-- [ ]
+
   - La boussole doit être compatible avec d'autres systèmes à bord (GPS) via le bus de communication.
       
-- [ ]
+
   -Description des composants constitutifs de l'unité :
 
 ![image (1)](https://github.com/user-attachments/assets/581d49aa-7957-4e9b-ab17-d8e5a4e88368) 
