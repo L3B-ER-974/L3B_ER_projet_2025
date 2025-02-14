@@ -12,8 +12,9 @@
 
 
 - Précision attendue
-- [ ] - La précision de la mesure de l'azimut doit être dans une marge d'erreur de ± 1 degré.
-
+- [ ]
+  - La précision de la mesure de l'azimut doit être dans une marge d'erreur de ± 1 degré.
+- [ ] 
 - Résultat attendu
 - [ ]
   - Les données doivent être disponibles en temps réel avec un taux de transmission spécifique (par exemple, toutes les secondes).
