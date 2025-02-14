@@ -7,16 +7,16 @@
 - [ ] Description des grandeurs d'entrée et de sortie :
 
 - Plage de variation attendue
-  - [ ] - La boussole doit mesurer l'azimut (direction) à partir de la référence nord.
-  - [ ] - La boussole doit fournir des données sur l’inclinaison (pitch et roll).
+- [ ] - La boussole doit mesurer l'azimut (direction) à partir de la référence nord.
+- [ ] - La boussole doit fournir des données sur l’inclinaison (pitch et roll).
 
 
-    - Précision attendue
-  - [ ] - La précision de la mesure de l'azimut doit être dans une marge d'erreur de ± 1 degré.
+- Précision attendue
+- [ ] - La précision de la mesure de l'azimut doit être dans une marge d'erreur de ± 1 degré.
 
-    - Résultat attendu
-  - [ ] - Les données doivent être disponibles en temps réel avec un taux de transmission spécifique (par exemple, toutes les secondes).
-  - [ ] - La boussole doit être compatible avec d'autres systèmes à bord (GPS) via le bus de communication.
+- Résultat attendu
+- [ ] - Les données doivent être disponibles en temps réel avec un taux de transmission spécifique (par exemple, toutes les secondes).
+- [ ] - La boussole doit être compatible avec d'autres systèmes à bord (GPS) via le bus de communication.
       
 - [ ] Description des composants constitutifs de l'unité :
 
