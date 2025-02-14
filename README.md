@@ -2,7 +2,10 @@
 - [ ] Description du module et attendu final
 - [ ] Boussole Numerique
 
-![image](https://github.com/user-attachments/assets/73772ac3-c29a-4dd1-940a-bab488e4cb58)
+
+![giphy](https://github.com/user-attachments/assets/ea8b82f7-b06d-4fa1-941a-0d6f28ae3bde)  ![image](https://github.com/user-attachments/assets/73772ac3-c29a-4dd1-940a-bab488e4cb58)   
+
+
 
 - [ ] Description des grandeurs d'entrée et de sortie :
 
