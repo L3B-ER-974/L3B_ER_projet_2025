@@ -10,9 +10,7 @@
 - [ ] - La boussole doit mesurer l'azimut (direction) à partir de la référence nord.
 - [ ] - La boussole doit fournir des données sur l’inclinaison (pitch et roll).
 
-
-- Précision attendue
-- [ ]
+- [ ] - Précision attendue
   - La précision de la mesure de l'azimut doit être dans une marge d'erreur de ± 1 degré.
  
 - Résultat attendu
@@ -22,7 +20,7 @@
   - La boussole doit être compatible avec d'autres systèmes à bord (GPS) via le bus de communication.
       
 
-  -Description des composants constitutifs de l'unité :
+  - [ ]-Description des composants constitutifs de l'unité :
 
 ![image (1)](https://github.com/user-attachments/assets/581d49aa-7957-4e9b-ab17-d8e5a4e88368) 
 
