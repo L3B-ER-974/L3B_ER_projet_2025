@@ -14,6 +14,9 @@
 - [ ] Module boussole (GPS)
 - [ ] Module Heure UTC (GPS)
 - [ ] Module Boussole magnétique
+- diagramme
+  ![image](https://github.com/user-attachments/assets/ccf99c77-78eb-4262-b89c-7dc7e1bb975c)
+  
       
 - Caractéristique entrée:
     - [ ] ATmega328
