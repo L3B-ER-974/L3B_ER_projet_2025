@@ -8,14 +8,14 @@ Géolocalisation par satellites Comm. en bus USART et CAN
 - [ ] Description des grandeurs d'entrée et de sortie :
 
     - plage de variation attendue
-    - précision attendue : 
+    - précision, résolution, limitation : Résolution 100 µs, précision 10^-2 degres
     - Résultat attendu :Heure au temps universel cordonné (UTC)
        
 - [ ] Description des composants constitutifs de l'unité : 	Microcontrôleur : ATmega328  GPS : Neo6M
       
     - Caractéristique entrée-sortie
     - plage de variation
-    - précision, résolution, limitation : Résolution 100 µs,
+    - précision, résolution, limitation : Résolution 100 µs, précision 10^-2 degres
     - Type de bus : Contrôleur de bus CAN : MCP2515 : Interface bus CAN : PCA82C250
     - ports utilisés
     - alimentation et consommation: Alimentation xl1509-5.0 entrée 12V sortie 5V
