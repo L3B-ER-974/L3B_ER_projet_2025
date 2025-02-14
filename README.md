@@ -10,8 +10,9 @@
 - Description des composants constitutifs de l'unité :
   
 - ATmega328P
-
-
+– 1.8 - 5.5V for ATmega328P
+Temperature Range:
+– -40°C to 85°C
 
 
 
