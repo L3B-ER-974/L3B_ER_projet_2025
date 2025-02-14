@@ -44,5 +44,10 @@
     
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
       
-      - Librairie 
+      - Librairie
+      - Code 
+      - Document
+      - Shémas
+      - Diageramme
+      
 - -https://www.notion.so/projet-2025-197816443d9081ba948eeee5e938c96d?pvs=4#197816443d9081aaafd9c158bc2f61e4
