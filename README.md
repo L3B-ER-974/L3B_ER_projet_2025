@@ -73,7 +73,7 @@ Format de trame NMEA2000 (Identifiant 09F80102h) :
 - DATA7 : Latitude
 - DATA8 : Latitude (LSB)
 
-- [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
+# Mise à jour des documentations techniques essentielles (extraits utiles)
 
 > **Diagramme d'exigence**
 
