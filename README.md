@@ -6,17 +6,68 @@
 ![image](https://github.com/user-attachments/assets/eb1aaab5-a327-41bb-a704-3360e9b9ff27)
 
 - [ ] Description des grandeurs d'entrée et de sortie :
-    - plage de variation attendue
-    - précision attendue
-    - Résultat attendu
-- [ ] Description des composants constitutifs de l'unité : 
-    - Caractéristique entrée-sortie
-    - plage de variation
-    - précision, résolution, limitation
-    - Type de bus
-    - ports utilisés
-    - alimentation et consommation
-    - ...
+   
+- Plage de variation attendue :
+
+Longitude : +/- 0 à 180° (Est = positif, Ouest = négatif)
+Latitude : +/- 0 à 90° (Nord = positif, Sud = négatif)
+
+Précision attendue :
+
+Résolution : 0,1 µ°
+
+- Résultat attendu :
+
+Réception des données satellites en NMEA0183 sur USART (trame GPGLL ou GPGGA)
+Ecriture de la trame NMEA2000 d’identifiant 09F80102h sur bus CAN
+
+- [ ] Description des composants constitutifs de l'unité :
+  
+- Microcontrôleur ATmega328 :
+
+Alimentation : 1.8 - 5.5 V
+Plage de fréquence : 0 - 20 MHz
+Programmable en série via USART
+Nombre de broches : 32
+Limitation courant : 200 mA
+
+- Module GPS Neo6M :
+
+Protocole de communication : NMEA0183
+Données envoyées : Latitude et Longitude
+Interface : USART
+Alimentation : 2.7V - 3.6V
+
+- Contrôleur de bus CAN MCP2515 :
+
+Communication : CANH et CANL
+Alimentation : 2.7 V - 5.5 V
+Interface : SPI avec microcontrôleur
+Interface bus CAN PCA82C250 :
+Communication : CANH et CANL
+Alimentation : 4.5V - 5.5V
+
+- Convertisseur de tension XL1509-5.0 :
+
+Tension de sortie régulée : 5V (valeur typique)
+Tension d'entrée : 4.5V - 40V
+Oscillateur de fréquence : 150 kHz (valeur typique)
+Limite de courant : 4 A
+Protocole de communication
+Protocole utilisé : SIMNET
+Bus de communication : CAN
+
+- Format de trame NMEA2000 (Identifiant 09F80102h) :
+
+DATA1 : Longitude (MSB)
+DATA2 : Longitude
+DATA3 : Longitude
+DATA4 : Longitude (LSB)
+DATA5 : Latitude (MSB)
+DATA6 : Latitude
+DATA7 : Latitude
+DATA8 : Latitude (LSB)
+
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
 - [ ] Diagramme d'exigence
 - [ ] Diagramme de bloc interne
