@@ -21,9 +21,9 @@
 - Réception des données satellites en NMEA0183 sur USART (trame GPGLL ou GPGGA).
 Ecriture de la trame NMEA2000 d’identifiant 09F80102h sur bus CAN
 
-- [ ] Description des composants constitutifs de l'unité :
+- [ ] **Description des composants constitutifs de l'unité :**
   
-- Microcontrôleur ATmega328 :
+ Microcontrôleur ATmega328 :
 
 - Alimentation : 1.8 - 5.5 V
 - Plage de fréquence : 0 - 20 MHz
@@ -31,7 +31,7 @@ Ecriture de la trame NMEA2000 d’identifiant 09F80102h sur bus CAN
 - Nombre de broches : 32
 - Limitation courant : 200 mA
 
-- Module GPS Neo6M :
+__ Module GPS Neo6M :
 
 - Protocole de communication : NMEA0183
 - Données envoyées : Latitude et Longitude
