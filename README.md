@@ -1,9 +1,14 @@
 # L3B_ER_projet_2025
 
 > **Description du module et attendu final**
- - RÉSEAU POUR NAVIRE DE PLAISANCE - NMEA2000
-- Présentation générale du système supportant le projet : 
+> RÉSEAU POUR NAVIRE DE PLAISANCE - NMEA2000
+- Présentation générale du système supportant le projet :
+  
 ![image](https://github.com/user-attachments/assets/eb1aaab5-a327-41bb-a704-3360e9b9ff27)
+
+Le module que je dois concevoir est un système GPS permettant la géolocalisation de la longitude et de la latitude par satellites. Il reçoit les données satellites en NMEA0183 sur USART (trame GPGLL ou GPGGA) et transmet les informations sous forme de trames NMEA2000 sur le bus CAN.
+
+Ce qui est attendu au final, c'est la conception d'une carte fonctionnelle qui permet de recevoir, traiter et afficher ces données de positionnement avec précision.(la vitesse du vent ainsi que sa direction), la température, le débit et le niveau d'essence pour le moteur 1, le régime moteur et totalisateur horaire du moteur 2 et enfin la vitesse relative sur l'eau.
 
 > **Description des grandeurs d'entrée et de sortie :**
    
