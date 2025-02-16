@@ -7,12 +7,12 @@
 
 > **Description des grandeurs d'entrée et de sortie :**
    
-- Plage de variation attendue :
+Plage de variation attendue :
 
 - Longitude : +/- 0 à 180° (Est = positif, Ouest = négatif)
 - Latitude : +/- 0 à 90° (Nord = positif, Sud = négatif)
 
-- Précision attendue :
+Précision attendue :
 
 - Résolution : 0,1 µ°
 
@@ -69,10 +69,11 @@ Format de trame NMEA2000 (Identifiant 09F80102h) :
 - DATA8 : Latitude (LSB)
 
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
-> Diagramme d'exigence
 
-> Diagramme de bloc interne
+> **Diagramme d'exigence**
 
-> Diagramme de cas d'utilisation
+> **Diagramme de bloc interne**
+
+> **Diagramme de cas d'utilisation**
 
 ![image](https://github.com/user-attachments/assets/57e4b718-a6c9-4e45-8e93-19d325f6bf5b)
