@@ -1,10 +1,11 @@
 # L3B_ER_projet_2025
-> Description du module et attendu final
+
+> **Description du module et attendu final**
  - RÉSEAU POUR NAVIRE DE PLAISANCE - NMEA2000
 - Présentation générale du système supportant le projet : 
 ![image](https://github.com/user-attachments/assets/eb1aaab5-a327-41bb-a704-3360e9b9ff27)
 
-- [ ] Description des grandeurs d'entrée et de sortie :
+> **Description des grandeurs d'entrée et de sortie :**
    
 - Plage de variation attendue :
 
@@ -20,7 +21,7 @@
 - Réception des données satellites en NMEA0183 sur USART (trame GPGLL ou GPGGA).
 Ecriture de la trame NMEA2000 d’identifiant 09F80102h sur bus CAN
 
-- [ ] **Description des composants constitutifs de l'unité :**
+> **Description des composants constitutifs de l'unité :**
   
  Microcontrôleur ATmega328 :
 
@@ -30,14 +31,14 @@ Ecriture de la trame NMEA2000 d’identifiant 09F80102h sur bus CAN
 - Nombre de broches : 32
 - Limitation courant : 200 mA
 
-__ Module GPS Neo6M :
+Module GPS Neo6M :
 
 - Protocole de communication : NMEA0183
 - Données envoyées : Latitude et Longitude
 - Interface : USART
 - Alimentation : 2.7V - 3.6V
 
-- Contrôleur de bus CAN MCP2515 :
+Contrôleur de bus CAN MCP2515 :
 
 - Communication : CANH et CANL
 - Alimentation : 2.7 V - 5.5 V
@@ -46,7 +47,7 @@ __ Module GPS Neo6M :
 - Communication : CANH et CANL
 - Alimentation : 4.5V - 5.5V
 
-- Convertisseur de tension XL1509-5.0 :
+Convertisseur de tension XL1509-5.0 :
 
 - Tension de sortie régulée : 5V (valeur typique)
 - Tension d'entrée : 4.5V - 40V
@@ -56,7 +57,7 @@ __ Module GPS Neo6M :
 - Protocole utilisé : SIMNET
 - Bus de communication : CAN
 
-- Format de trame NMEA2000 (Identifiant 09F80102h) :
+Format de trame NMEA2000 (Identifiant 09F80102h) :
 
 - DATA1 : Longitude (MSB)
 - DATA2 : Longitude
