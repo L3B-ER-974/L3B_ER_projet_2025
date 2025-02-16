@@ -80,5 +80,14 @@ Format de trame NMEA2000 (Identifiant 09F80102h) :
 > **Diagramme de bloc interne**
 
 > **Diagramme de cas d'utilisation**
-
 ![image](https://github.com/user-attachments/assets/57e4b718-a6c9-4e45-8e93-19d325f6bf5b)
+
+> **Schématique P-CAD**
+
+- Partie 1
+![image](https://github.com/user-attachments/assets/e85184da-400b-4dba-9602-42e66f87f6fe)
+
+- Partie 2
+![image](https://github.com/user-attachments/assets/74fd0438-d3c1-4b25-9147-296a4d46cacd)
+
+
