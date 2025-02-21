@@ -5,7 +5,7 @@
 - [ ] Description des grandeurs d'entrée et de sortie :
     - plage de variation attendue : de 0 à 150km/h
     - précision attendue : +/- 1km/h
-    - Résultat attendu
+    - Résultat attendu : Vitesse du vent
       
 - [ ] Description des composants constitutifs de l'unité : 
     - Caractéristique entrée-sortie
@@ -13,7 +13,7 @@
     - précision, résolution, limitation
     - Type de bus : BUS CAN
     - ports utilisés
-    - alimentation et consommation : 12V, 
+    - alimentation et consommation : Alimentation xl1509-5.0 entrée 12V sortie 5V 
     - ...
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
 - [ ] Diagramme d'exigence
