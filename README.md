@@ -54,3 +54,9 @@
       - Diageramme
       
 - - [https://www.notion.so/projet-2025-197816443d9081ba948eeee5e938c96d?pvs=4#197816443d9081aaafd9c158bc2f61e4](https://www.notion.so/197816443d9080d49a5bdfe7fcc80cd6?v=197816443d90815da737000c3b2111fe)
+
+![Simrad](https://github.com/user-attachments/assets/b6952812-5b2d-4aef-9d59-44da2bc17021) 
+![image (1)](https://github.com/user-attachments/assets/eeacb874-839d-4228-b7e2-f07903657834)
+![image](https://github.com/user-attachments/assets/ca09f6a8-c5cc-4d98-a814-75806c835e56)
+![image (3)](https://github.com/user-attachments/assets/b5e0704d-11c7-400f-a912-94247f484924)
+
