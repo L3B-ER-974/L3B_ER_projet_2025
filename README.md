@@ -93,7 +93,7 @@ Format de trame NMEA2000 (Identifiant 09F80102h) :
 
 > **PCB**
 
--Carte finale
+- Carte finale
 
 ![image](https://github.com/user-attachments/assets/966c1315-90a3-4627-be64-985fafd6dd77)
 
