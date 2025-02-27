@@ -59,7 +59,7 @@ Composant "XL1509-5.0" :
 
 Le protocole qui est utilisé c'est le protocole SIMNET et pour la communication c'est le BUS CAN. 
 
-## Mise à jour des documentations techniques essentielles 
+## Les diagrammes 
 
 <ins> **Diagramme de cas d'utilisation :**</ins>
 
