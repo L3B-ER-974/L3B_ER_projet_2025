@@ -1,1 +1,17 @@
 # Les composants 
+
+LCD3.5UNO
+
+AMS1117-3.3
+
+XL1509-5.0
+
+ATMEGA328-16AU
+
+HE10_6
+
+MCP2515
+
+MCP2551
+
+GX12
