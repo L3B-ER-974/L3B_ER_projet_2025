@@ -8,7 +8,7 @@ Le but de notre projet est d'équipé le navire "SARL Réunion Formation Plongé
 
 ## Description du module et attendu final
 
-Mon module c'est une carte avec un écran monté dessus relier avec un microcontroleur (Atmega328-16AU), un programmateur (HE10_6), une alimentation XL1509-5.0 (ce composant là va me permettre d'adapter le courant d'entré en 5V pour toute la carte), d'un MCP2551 et d'un MCP2515, d'un GX12 (c'est là que va arrivé les informations des capteurs), d'un AMS1117-3.3 (ce composant là c'est pour régulé la tension à 3,3 V pour l'écran), un connecteur embase droite pour voir les trames et enfin des diodes électroluminécantes (XL-3216SURC) pour voir les communications TX, RX et l'alimentation. Le MCP2551 et le MCP2515 vont tout les deux me permettre d'assurer la communication entre le microcontroleur et les capteurs et de garder temporairement les données des capteurs.
+Mon module c'est une carte avec un écran monté dessus relier avec un microcontroleur (ATMEGA328-16AU), un programmateur (HE10_6), une alimentation XL1509-5.0 (ce composant là va me permettre d'adapter le courant d'entré en 5V pour toute la carte), d'un MCP2551 et d'un MCP2515, d'un GX12 (c'est là que va arrivé les informations des capteurs), d'un AMS1117-3.3 (ce composant là c'est pour régulé la tension à 3,3 V pour l'écran), un connecteur embase droite pour voir les trames et enfin des diodes électroluminécantes (XL-3216SURC) pour voir les communications TX, RX et l'alimentation. Le MCP2551 et le MCP2515 vont tout les deux me permettre d'assurer la communication entre le microcontroleur et les capteurs et de garder temporairement les données des capteurs.
 
 Ce qui est attendu au final, c'est que je dois concevoir une carte avec les composants marqués au-dessus, un écran multifonctions qui gère par derrière les trames NMEA2000 des capteurs et qui les affiche en clair sur l'écran.
 
@@ -34,7 +34,7 @@ Ecran LCD "SKU MAR2406 driver ILI9341" :
  - Couleur : RGB 65k color
  - Communication : BUS SPI
 
-Microprocesseur "Atmega328": 
+Microprocesseur "ATMEGA328-16AU": 
  
  - Alimentation : 1.8 - 5.5 V
  - Plage de fréquence : 0 - 20 MHz
