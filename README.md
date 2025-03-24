@@ -14,7 +14,7 @@ Ce qui est attendu au final, c'est que je dois concevoir une carte avec les comp
 
 <ins> **Exemple d'un écran multifonctions avec les relevés des capteurs  :**</ins>
 
-![Ecran](https://github.com/user-attachments/assets/7416f4ee-4683-4d5c-9b53-a530979d1dc7)
+![1742833629480](https://github.com/user-attachments/assets/1e60a19d-0e65-4273-9f1f-47d8f48db789)
 
 <ins> **Exemple de carte à fabriqué :**</ins>
 
