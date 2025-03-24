@@ -1,5 +1,6 @@
 # L3B_ER_projet_2025
-- [ ] 
+- [ ] Présentation générale du système supportant le projet :
+
 - [ ] Description du module et attendu final
 - [ ] Description des grandeurs d'entrée et de sortie :
     - plage de variation attendue
