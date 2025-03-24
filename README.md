@@ -25,5 +25,5 @@
 ![image](https://github.com/user-attachments/assets/4794b2c2-bb3b-45de-936f-0c71f0b1121b)
 ![image](https://github.com/user-attachments/assets/b4667c06-9629-493c-ac9f-eb45c36e914e)
 - [ ]shema structurel
-  ![image](https://github.com/user-attachments/assets/1c39976a-bd06-4e34-bfbb-0bd3a2131ab4)
+![image](https://github.com/user-attachments/assets/1c39976a-bd06-4e34-bfbb-0bd3a2131ab4)
 
