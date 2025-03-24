@@ -16,19 +16,20 @@ MCP2515 : Nous avons choisir ce composant là car il va gérer la gestion des me
 LCD3.5 UNO : Alors sur le schéma sctructurel nous avons prévues d'utiliser un écran LCD 2.4 pouces mais nous avons anticipé sur un écran LCD plus grand un 3.5 pouces. Pourquoi on a fait ça ? On a fait ça au cas ou si nous voulons un écran LCD plus grande. Nous avons choisir un LCD 2.4 pouces pour affiché les valeurs des capteurs sur un écran LCD (il va servir d'écran multifonctions). 
    
 - [x] Réalisation du typon en double face
+  
    - Contraintes de réalisation (dimension, largeur des pistes...)
 
 Les contraintes de réalisation sont : 
- 
-  - La piste pour les composants d'alimentations qui fournit des tensions haute doivent faire 20mil sinon ils vont brûlé la carte (GX12, XL1509-5.0, les condensateurs et les inductances qui sont relier à ces alimentations )
-  - La piste pour le microcontroleur ATMEGA328-16AU doivent avoir une épaisseur de 15mil au maximun.
+
+  - Les pistes pour les composants d'alimentations qui fournit des tensions haute doivent faire 20mil sinon ils vont brûlé la carte (GX12, XL1509-5.0, les condensateurs et les inductances qui sont relier à ces alimentations ).
+  - Les pistes pour le microcontroleur ATMEGA328-16AU doivent avoir une épaisseur de 15mil au maximun.
   - Les pistes doivent pas se croisé.
   - Limiter au maximun les trous sur les cartes (Les Vias).
   - Respecté un espacement entre les pastiles et les pistes qui passent entre les deux.
   - Priorisé les pistes du microcontroleurs en premier et les composants d'alimentations en dernier.
-  - Ajouter deux couches de masse un au-dessus et un en-dessous de la carte.
+  - Ajouter deux plan de masse un au-dessus et un en-dessous de la carte.
   - Renseigné que la référence des composants (Exemple : R10, C15,U1) et pas le type ou les valeurs des composants (exemple : XL1509-5.0, 150 µF...)  car ce qui est important c'est qu'on voir la référence des composants quand la carte est finir (Voir image ci-dessous).
-  - La référence des composants doivent être bien lisible, placé et doivent avoir tous le même sens pour facilité la lecture des composants. 
+  - La référence des composants doivent être bien lisible et doivent avoir la même orientation exemple : "si une référence d'un composant est positionné horizontalement alors tout les autres références doivent être positionné pareillement pour facilité la visibilité ".  
   - Mettre les connecteurs au bord de la carte (Salea logic, GX12, ISP-PROG)
 
 
@@ -37,5 +38,11 @@ Carte de projet croix de pharmacie :
 ![IMG_20241212_101554](https://github.com/user-attachments/assets/411e6ba1-8b71-4161-bf2d-6e143ad115e8)
 
 
+- [x] Édition des fichiers de constructions Gerber
 
-- [x] Édition des fichiers de constructions Gerber   (A vérifier)
+L'édition qu'il y a eu sont : 
+ 
+ - Les pistes que je devais reposiotionné. (déjà fait)
+ - Les références des composants que je devais tous bien orientés. (déjà fait)
+ - Les ajouts des plans de masses sur la partie au-dessus et en-dessous de la carte. (déjà fait)
+
