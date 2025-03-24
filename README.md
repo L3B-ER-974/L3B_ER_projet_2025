@@ -1,4 +1,6 @@
 # L3B_ER_projet_2025
+![image](https://github.com/user-attachments/assets/4a5161fc-1439-4182-a6b4-e56cd633f290)
+
 - [ ] Description du module et attendu final
 - [ ] Description des grandeurs d'entrée et de sortie :
     - plage de variation attendue
