@@ -40,23 +40,37 @@ Microprocesseur "Atmega328":
  - programmable en série USART
  - Possédent 32 broches au total
  - Limitation courant : 200 mA
+ - Possédent l'interface SPI et 2-wire
+ - Accepte jusqu'à 32 kbit les prè-programmes
+ - Possédent une mémoire EEPROM qui garde l'information jusqu'a 1kbit lorsque la carte est éteint.
 
 Composant "MCP2515" : 
 
  - Communication : CANH et CANL
  - Alimentation : 2.7 V - 5.5 V
+ - Plage de température : -40 °C à + 85 °C
+ - Interface SPI cadencé à 10 MHz
 
 Composant "MCP2551" :
  
  - Communication : CANH et CANL
  - Alimentation : 4.5V - 5.5V
+ - Tension continue pour CANH et CANL entre : -42 V et + 42 V
+ - Plage de température : -55 °C et + 150 °C
 
 Composant "XL1509-5.0" :
 
  -Tension de sortie régulé à : 5V (valeur typique)
- -Tension entré : 4.5V - 40V
+ -Tension d'entré accepté : 4.5V - 40V
  -Oscillateur de fréquence : 150 khz (valeur typique)
  -Limite de courant : 4 A.
+
+Composant "AMS1117-3.3" : 
+
+- Régule la tension jusqu'à 5 V
+- La tension d'entré maximun est 18 V
+- La plage de température est compris entre -65 °C à 150 °C
+
 
 Le protocole qui est utilisé c'est le protocole SIMNET et pour la communication c'est le BUS CAN. 
 
