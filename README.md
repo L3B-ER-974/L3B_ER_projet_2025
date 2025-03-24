@@ -12,18 +12,17 @@ Mon module c'est une carte avec un écran monté dessus relier avec un microcont
 
 Ce qui est attendu au final, c'est que je dois concevoir une carte avec les composants marqués au-dessus, un écran multifonctions qui gère par derrière les trames NMEA2000 des capteurs et qui les affiche en clair sur l'écran.
 
-<ins> **Exemple d'écran multifonction avec d'autre mesure  :**</ins>
+<ins> **Exemple d'un écran multifonctions avec les relevés des capteurs  :**</ins>
 
 ![Ecran](https://github.com/user-attachments/assets/7416f4ee-4683-4d5c-9b53-a530979d1dc7)
 
 <ins> **Exemple de carte à fabriqué :**</ins>
 
-![image](https://github.com/user-attachments/assets/d10485e7-7799-4566-b702-df0929d8225d)
+![image](https://github.com/user-attachments/assets/3d0fb151-628a-4c1c-9304-244347d32c4e)
 
 ## Description des grandeurs d'entrée et de sortie 
 
-Alors notre maquette va recevoir à l'entré le bus de données CAN, ensuite, ces données vont être traité par le microcontroleur puis ils vont être affiché par l'afficheur LCD 2.4inch en bus SPI. 
-
+Ma maquette, ce qu'il fait, c'est qu'il va recevoir les trames NMEA2000 des différents capteurs à l'entrée (Ils vont tous passer par le GX12), ils vont ensuite être filtrés et traités par mes composants MCP2515 et MCP2555. Ensuite, ces mêmes composants vont assurer la passerelle entre le microcontrôleur et les composants (BUS SPI). Ensuite, le microcontrôleur traite les données des différents capteurs et les envoie ensuite sous format de texte les valeurs des différents capteurs sur un écran LCD SPI (Un programme sera mis dans le microcontroleur pour traité les données des capteurs) .
 
 ## Description des composants constitutifs de l'unité 
 
