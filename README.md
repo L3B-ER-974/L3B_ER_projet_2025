@@ -14,7 +14,8 @@ Ce qui est attendu au final, c'est que je dois concevoir une carte avec les comp
 
 <ins> **Exemple d'écran multifonction avec d'autre mesure  :**</ins>
 
- 
+            ![Ecran](https://github.com/user-attachments/assets/7416f4ee-4683-4d5c-9b53-a530979d1dc7)
+
 <ins> **Exemple de carte à fabriqué :**</ins>
 
 ![image](https://github.com/user-attachments/assets/d10485e7-7799-4566-b702-df0929d8225d)
