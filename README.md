@@ -1,6 +1,8 @@
 # L3B_ER_projet_2025
 - [ ] Présentation générale du système supportant le projet :
 
+![image](https://github.com/user-attachments/assets/59e01244-d01f-445c-b78e-7d4226225d64)
+
 - [ ] Description du module et attendu final
 - [ ] Description des grandeurs d'entrée et de sortie :
     - plage de variation attendue
