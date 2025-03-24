@@ -18,4 +18,7 @@
     - ...
 - [ ] Mise à jour des documentations techniques essentielles (extraits utiles)
 - [ ] Diagramme d'exigence
+- [ ] 
 - [ ] Diagramme de bloc interne
+     ![image](https://github.com/user-attachments/assets/c29f9ada-db4f-4294-8b96-a2cd906fd2b2)
+ 
