@@ -3,6 +3,10 @@
 
 ![image](https://github.com/user-attachments/assets/59e01244-d01f-445c-b78e-7d4226225d64)
 
+- [ ] Répartition des tâches
+
+![image](https://github.com/user-attachments/assets/20064cc7-fdd3-44c9-983c-6a038b92dfa5)
+
 - [ ] Description du module et attendu final
 - [ ] Description des grandeurs d'entrée et de sortie :
     - plage de variation attendue
