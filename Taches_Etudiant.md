@@ -28,6 +28,16 @@
 - Nomenclature
 - Fichiers Gerbers
 
+## D- Programmation et test
+- Réalisation d'un ou plusieurs codes de test
+- Réalisation du programme final sur prototype
+- Ajout des commentaires et documentation aux programmes
+
+## E- Module final
+- Réalisation de la carte
+- Tests et mesures sur la carte
+- Intégration du module au projet
+
 
   
 
