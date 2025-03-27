@@ -31,12 +31,15 @@ Les contraintes de réalisation sont :
   - Renseigné que la référence des composants (Exemple : R10, C15,U1) et pas le type ou les valeurs des composants (exemple : XL1509-5.0, 150 µF...)  car ce qui est important c'est qu'on voir la référence des composants quand la carte est finir (Voir image ci-dessous).
   - La référence des composants doivent être bien lisible et doivent avoir la même orientation exemple : "si une référence d'un composant est positionné horizontalement alors tout les autres références doivent être positionné pareillement pour facilité la visibilité ".  
   - Mettre les connecteurs au bord de la carte (Salea logic, GX12, ISP-PROG)
+  - Il faut limité les angles droits des pistes. 
 
 
 <ins>Carte de projet croix de pharmacie :</ins> 
 
 ![IMG_20241212_101554](https://github.com/user-attachments/assets/411e6ba1-8b71-4161-bf2d-6e143ad115e8)
 
+
+Il faut que l'orientation des textes soient tous pareils. 
 
 - [x] Édition des fichiers de constructions Gerber
 
