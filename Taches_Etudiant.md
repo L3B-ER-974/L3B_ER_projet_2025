@@ -32,7 +32,7 @@
 - Réalisation d'un ou plusieurs codes de test unitaire
 - Réalisation du programme final sur prototype
 - Ajout des commentaires et documentation aux programmes
-- Validation du programme
+- Validation du programme principal
 
 ## E- Module final
 - Réalisation de la carte
