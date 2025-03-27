@@ -23,6 +23,7 @@
 
 ## C- Schémas
 - Schéma structurel
+- Justification des composants choisis
 - Typon
 - Nomenclature
 - Fichiers Gerbers
