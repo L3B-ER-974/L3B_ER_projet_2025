@@ -29,14 +29,14 @@
 - Fichiers Gerbers
 
 ## D- Programmation et test
-- Réalisation d'un ou plusieurs codes de test
+- Réalisation d'un ou plusieurs codes de test unitaire
 - Réalisation du programme final sur prototype
 - Ajout des commentaires et documentation aux programmes
 - Validation du programme
 
 ## E- Module final
 - Réalisation de la carte
-- Protocole de test : tests et mesures sur la carte
+- Protocoles de test : tests et mesures sur la carte
 - Validation du fonctionnement de la carte
 - Rédaction d'un cahier de recette simplifié
 - Intégration du module au projet
