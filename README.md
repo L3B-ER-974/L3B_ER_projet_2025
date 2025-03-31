@@ -19,3 +19,8 @@
 - [ ] Diagramme d'exigence
 - [ ] Diagramme de bloc interne
 ![image](https://github.com/user-attachments/assets/c4ee1645-0552-404f-a4be-4625e2988d5a)
+- Schéma thypon :
+  ![image](https://github.com/user-attachments/assets/a445431a-a070-465f-90c4-5eb36102cd02)
+  ![image](https://github.com/user-attachments/assets/78f2fc54-047d-41ba-9672-18ad55f7e3c3)
+-Schéma PCB :
+
