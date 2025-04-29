@@ -79,17 +79,17 @@ Le protocole qui est utilisé c'est le protocole SIMNET et pour la communication
 
 <ins> **Diagramme de cas d'utilisation :**</ins>
 
-![Diagramme_de_cas_utilisation](https://github.com/user-attachments/assets/5363b6af-5261-4fb1-a32a-09186ea9ae7e)
+![Diagramme_de_cas_utilisation](https://github.com/user-attachments/assets/4fb09562-4a59-4abb-8c00-d5187f3d03fc)
+
 
 <ins> **Diagramme d'éxigence :**</ins>
 
-![Diagramme_exigence_Jean](https://github.com/user-attachments/assets/9c340b77-26af-4022-9ebd-8dbb0a591bb6)
+![Diagramme_exigence_Jean](https://github.com/user-attachments/assets/355d2193-821a-4280-b011-4c2465a8161a)
 
 
 <ins> **Diagramme de bloc interne :**</ins>
 
-![Diagramme_de_bloc_interne](https://github.com/user-attachments/assets/a4674664-38d4-4457-9ef1-f7dfe83a1d50)
-
+![Diagramme_de_bloc_interne](https://github.com/user-attachments/assets/894da590-b19d-446f-87db-db1cad63164b)
 
  
 
