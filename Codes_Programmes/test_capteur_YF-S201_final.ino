@@ -11,37 +11,38 @@ void setup() {
   // start the CAN bus at 500 kbps
   CAN.begin(250E3);
   Serial.begin(9600); // Initialisation de la communication série à 9600 bauds
-  pinMode(5, INPUT_PULLUP); // Broche 5 en entrée pour le capteur
-  attachInterrupt(digitalPinToInterrupt(5), pulseCounter, FALLING); // Interruption sur front descendant attacher a la broche 5
+  pinMode(5, INPUT); // Broche 5 en entrée pour le capteur
+
+  TCCR1A = 0;     // Mode normal
+  TCCR1B = 0;     
+  TCCR1B = 0x06;  // Clock externe sur front montant via T1 (broche D5)
+  TCNT1 = 0;      // Remise à zéro du compteur
+  interrupts();   // Réactivation des interruptions
 }
 
 void loop() {
-  if (millis() - lastTime >= 1000) { // Toutes les secondes
+  if ((millis() - lastTime) == 1000) { // Toutes les secondes
     lastTime = millis();
     //flowRate = (100*(float(pulseCount) * pipePerimeter)) / 7.5 ; // Calcule le débit en cm/s
     flowRate = (float(pulseCount) * 0.47348) ; // Calcule le débit en cm/s
-    pulseCount = 0;// Réinitialisation du compteur
+//    pulseCount = 0;// Réinitialisation du compteur
     Vitesse_cm_s = int(flowRate*100) ; // Vitesse en m/s en entier
      
     //int (flowRateKmh) = flowRatemps * 3.6;         // Vitesse en km/h
     //int (flowRateKnots) = flowRatemps * 1.94384;   // Vitesse en nœuds
   
     //transmission sur bus CAN
- 
-  CAN.beginExtendedPacket(0x9F50301);  
-  CAN.write(0xFF);
-  CAN.write(Vitesse_cm_s & 0x00FF);     // LSB Vitesse relative sur l'eau x0.01m/s
-  CAN.write((Vitesse_cm_s >> 8) & 0x00FF);         // MSB Vitesse relative sur l'eau x0.01m/s
-  CAN.write(0xFF);
-  CAN.write(0xFF);
-  CAN.write(0xFF);
-  CAN.write(0xFF);
-  CAN.write(0xFF);
-  CAN.endPacket();
-
+  
+    CAN.beginExtendedPacket(0x9F50301);  
+    CAN.write(0xFF);
+    CAN.write(Vitesse_cm_s & 0x00FF);     // LSB Vitesse relative sur l'eau x0.01m/s
+    CAN.write((Vitesse_cm_s >> 8) & 0x00FF);         // MSB Vitesse relative sur l'eau x0.01m/s
+    CAN.write(pulseCount & 0x00FF);
+    CAN.write((pulseCount >> 8) & 0x00FF);
+    CAN.write(0xFF);
+    CAN.write(0xFF);
+    CAN.write(0xFF);
+    CAN.endPacket();
+    pulseCount = 0;// Réinitialisation du compteur
   }
-}
-
-void pulseCounter() {
-  pulseCount++; // Incrémentation à chaque impulsion
 }
