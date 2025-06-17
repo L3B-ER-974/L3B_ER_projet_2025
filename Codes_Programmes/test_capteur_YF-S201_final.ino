@@ -6,9 +6,9 @@ float flowRate = 0.0;
 unsigned long lastTime = 0;
 const float pipeDiameter = 0.01055; // Diamètre du tuyau en mètres (ex: 1.055 cm)
 const float pipePerimeter = 3.14159 * pipeDiameter; // Périmètre du tuyau en m
-
+const float perimeter_cm = pipePerimeter *100;//en cm
 void setup() {
-  // start the CAN bus at 500 kbps
+  // start the CAN bus at 250 kbps
   CAN.begin(250E3);
   Serial.begin(9600); // Initialisation de la communication série à 9600 bauds
   pinMode(5, INPUT); // Broche 5 en entrée pour le capteur
@@ -17,19 +17,17 @@ void setup() {
   TCCR1B = 0;     
   TCCR1B = 0x06;  // Clock externe sur front montant via T1 (broche D5)
   TCNT1 = 0;      // Remise à zéro du compteur
-  interrupts();   // Réactivation des interruptions
+  
 }
 
 void loop() {
   if ((millis() - lastTime) == 1000) { // Toutes les secondes
     lastTime = millis();
-    //flowRate = (100*(float(pulseCount) * pipePerimeter)) / 7.5 ; // Calcule le débit en cm/s
-    flowRate = (float(pulseCount) * 0.47348) ; // Calcule le débit en cm/s
-//    pulseCount = 0;// Réinitialisation du compteur
-    Vitesse_cm_s = int(flowRate*100) ; // Vitesse en m/s en entier
-     
-    //int (flowRateKmh) = flowRatemps * 3.6;         // Vitesse en km/h
-    //int (flowRateKnots) = flowRatemps * 1.94384;   // Vitesse en nœuds
+    unsigned int count = TCNT1;
+    flowRate = (float(count) * perimeter_cm/1.0);  // Calcule le débit en cm/s
+    Vitesse_cm_s = int(flowRate) ; 
+     TCNT1 = 0;      // Remise à zéro du compteur
+   
   
     //transmission sur bus CAN
   
