@@ -31,7 +31,7 @@ void loop() {
   
     //transmission sur bus CAN
   
-    CAN.beginExtendedPacket(0x9F50301);  
+    CAN.beginExtendedPacket(0x9F50301);  // Début de paquet CAN avec identifiant
     CAN.write(0xFF);
     CAN.write(Vitesse_cm_s & 0x00FF);     // LSB Vitesse relative sur l'eau x0.01m/s
     CAN.write((Vitesse_cm_s >> 8) & 0x00FF);         // MSB Vitesse relative sur l'eau x0.01m/s
